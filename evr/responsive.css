@@ -1,0 +1,15 @@
+@media (max-width:767px){
+    .left-sidebar #primary { height:auto !important; }
+    .FooterContainerLeft, 
+    .LogoContainer,
+    #cycloneslider-home-slide-show-1,
+#secondary,
+.NavContainer,
+.GlobalHeader { display:none !important; }
+    #branding { position:relative; }
+    .menu-icon { position:absolute; left:320px; top:20px; height:40px; width:40px; background-color:#F00; }
+    #primary { width:100% !important; float:none !important;}
+    #page , .ActivityBox, .NewsBox, .DataContainer { width:100%; }
+    .ActivityBox, .NewsBox { float:none; }
+    #page { min-width:0px; }
+}
